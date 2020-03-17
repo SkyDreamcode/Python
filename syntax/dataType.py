@@ -110,6 +110,23 @@ def listTest():
 	print("list2[3:7:2]:", end = ''); print(list2[3:7:2])
 	print("list2[-1:-5:-2]:", end = ''); print(list2[-1:-5:-2])
 
+def listTest1():
+	list3 = [1,2,3,4,5,6]
+	print('list3:', list3)
+	print('list3**2:', [x**2 for x in list3])
+	print('list3**2 >5 :', [x**2 for x in list3 if x > 2])
+	print('list3*5 to dict:', dict([(x,x*5) for x in list3]))
+	print('[(x,y) for x in range(10) if x > 2 for y in range(10) if y%2]:')	
+	print([(x,y) for x in range(10) if x > 2 for y in range(10) if y%2])
+
+	vec0 = [2,3,4]
+	vec1 = [5,6,7]
+	print('vec0:', vec0)
+	print('vec1:', vec1)
+	print('vec0[i]+vec1[i]:',[vec0[i]+vec1[i] for i in range(len(vec0))])
+
+	print('vec0[i] * vec1[i]:', [x*y for x in vec0 for y in vec1])
+
 
 def dataType():
 	counter = 12 #integer variable

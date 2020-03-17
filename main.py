@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 from syntax import dataType
+from syntax import operationalCharacter
 
 def main():
 	print("hello wprld")
@@ -13,8 +14,10 @@ def main():
 	'''
 	#dataType.stringTest()
 	#dataType.listTest()
+	dataType.listTest1()
 	#dataType.tupleTest()
 	#dataType.setTest()
-	dataType.dictionaryTest()
-
+	#dataType.dictionaryTest()
+	#operationalCharacter.logicOperator()
+	#operationalCharacter.memberOperator()
 main()
