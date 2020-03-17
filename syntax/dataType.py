@@ -1,5 +1,32 @@
 #!/usr/bin/python3
 
+def dictionaryTest1():
+	cities={
+	'ameraica':{'a1':['a11','a12','a13'],
+		'a2':['a21','a22','a23'],
+		'a3':['a31','a32','a33']
+		},
+	'japan':{'j1':['j11','j12','j13'],
+		'j2':['j21','j22','j23'],
+		'j3':['j31','j32','j33']
+		},
+	'indian':{'i1':['i11','i12','i13'],
+		'i2':['i21','i22','i23'],
+		'i3':['i31','i32','i33']
+		}	
+	}
+	print("cities:",cities)
+	print("cities['japan']:", [i for i in cities['japan']])
+	#print("cities['japan']:", direct((i,y)  for i in cities['japan']  for y cities['japan'][i]))
+	print("cities['indian']['i2']:", [i for i in cities['indian']['i2']])
+	print()
+	print("cities['japan']", end ='')
+	for i in cities['japan']:
+		print(i)
+	print("cities['indian']['i2']", end = '')
+	for i in cities['indian']['i2']:
+		print(i)
+
 def dictionaryTest():
 	fish = {}
 	fish['one'] = 'shark'

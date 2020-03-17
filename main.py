@@ -14,10 +14,11 @@ def main():
 	'''
 	#dataType.stringTest()
 	#dataType.listTest()
-	dataType.listTest1()
+	#dataType.listTest1()
 	#dataType.tupleTest()
 	#dataType.setTest()
 	#dataType.dictionaryTest()
+	dataType.dictionaryTest1()
 	#operationalCharacter.logicOperator()
 	#operationalCharacter.memberOperator()
 main()
